@@ -1,139 +1,106 @@
-Here's a list of common machine learning models along with their typical evaluation metrics:
+--------- Supervised Learning ------------
 
-### Classification Models
+... Linear Regression
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-Squared (R²)
 
-1. **Logistic Regression**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Logistic Regression
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-2. **Support Vector Machine (SVM)**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... K-Nearest Neighbors (KNN)
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-3. **K-Nearest Neighbors (KNN)**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Support Vector Machine (SVM)
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-4. **Naive Bayes**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Decision Tree
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-5. **Decision Tree**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Random Forest
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-6. **Random Forest**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Gradient Boosting Machine (GBM), XGBoost, LightGBM, CatBoost
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-7. **Gradient Boosting Machines (e.g., XGBoost, LightGBM, CatBoost)**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... Neural Networks (Simple Feedforward Network)
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-8. **Neural Networks (e.g., MLP)**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+....... Unsupervised Learning
 
-9. **AdaBoost**
-   - **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+... K-Means Clustering
+- Silhouette Score
+- Inertia
+- Davies-Bouldin Index
 
-### Regression Models
+... Hierarchical Clustering
+- Silhouette Score
+- Cophenetic Correlation Coefficient
+- Dunn Index
 
-1. **Linear Regression**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+... DBSCAN
+- Silhouette Score
+- Adjusted Rand Index (ARI)
+- Davies-Bouldin Index
 
-2. **Ridge Regression**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+... Principal Component Analysis (PCA)
+- Explained Variance Ratio
+- Reconstruction Error
+- Scree Plot
 
-3. **Lasso Regression**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+... t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Perplexity
+- KL Divergence
+- Visualization
 
-4. **Elastic Net**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+...... Ensemble Learning
 
-5. **Support Vector Regressor (SVR)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+... Bagging
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-6. **Decision Tree Regressor**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
+... Boosting (AdaBoost, Gradient Boosting, etc.)
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
 
-7. **Random Forest Regressor**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
-
-8. **Gradient Boosting Regressor (e.g., XGBoost, LightGBM, CatBoost)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
-
-9. **Neural Networks (e.g., MLP Regressor)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
-
-10. **AdaBoost Regressor**
-    - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared
-
-### Clustering Models
-
-1. **K-Means**
-   - **Evaluation Metrics**: Silhouette Score, Davies-Bouldin Index, Adjusted Rand Index (ARI)
-
-2. **Hierarchical Clustering**
-   - **Evaluation Metrics**: Silhouette Score, Davies-Bouldin Index, Adjusted Rand Index (ARI)
-
-3. **DBSCAN**
-   - **Evaluation Metrics**: Silhouette Score, Davies-Bouldin Index, Adjusted Rand Index (ARI)
-
-4. **Gaussian Mixture Models (GMM)**
-   - **Evaluation Metrics**: Silhouette Score, Davies-Bouldin Index, Adjusted Rand Index (ARI), Bayesian Information Criterion (BIC), Akaike Information Criterion (AIC)
-
-### Dimensionality Reduction Models
-
-1. **Principal Component Analysis (PCA)**
-   - **Evaluation Metrics**: Explained Variance Ratio, Reconstruction Error
-
-2. **Linear Discriminant Analysis (LDA)**
-   - **Evaluation Metrics**: Explained Variance Ratio, Classification Accuracy (when used for classification)
-
-3. **t-Distributed Stochastic Neighbor Embedding (t-SNE)**
-   - **Evaluation Metrics**: Visual inspection (plot quality), Perplexity
-
-4. **Autoencoders**
-   - **Evaluation Metrics**: Reconstruction Error
-
-### Anomaly Detection Models
-
-1. **Isolation Forest**
-   - **Evaluation Metrics**: Precision, Recall, F1 Score, ROC-AUC
-
-2. **One-Class SVM**
-   - **Evaluation Metrics**: Precision, Recall, F1 Score, ROC-AUC
-
-3. **Elliptic Envelope**
-   - **Evaluation Metrics**: Precision, Recall, F1 Score, ROC-AUC
-
-### Time Series Models
-
-1. **ARIMA (AutoRegressive Integrated Moving Average)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
-
-2. **SARIMA (Seasonal ARIMA)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
-
-3. **Prophet**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
-
-4. **LSTM (Long Short-Term Memory) Networks**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE)
-
-### Recommendation Systems
-
-1. **Collaborative Filtering**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Precision at K, Recall at K
-
-2. **Content-Based Filtering**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Precision at K, Recall at K
-
-3. **Matrix Factorization (e.g., SVD, ALS)**
-   - **Evaluation Metrics**: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Precision at K, Recall at K
-
-### Reinforcement Learning Models
-
-1. **Q-Learning**
-   - **Evaluation Metrics**: Cumulative Reward, Average Reward
-
-2. **Deep Q-Networks (DQN)**
-   - **Evaluation Metrics**: Cumulative Reward, Average Reward
-
-3. **Policy Gradient Methods**
-   - **Evaluation Metrics**: Cumulative Reward, Average Reward
-
-Each metric has its own use case and is selected based on the specific problem, dataset characteristics, and the goals of the analysis. It is often beneficial to evaluate a model using multiple metrics to get a comprehensive understanding of its performance.
+... Stacking
+- Accuracy
+- Precision
+- Recall (Sensitivity)
+- F1 Score
+- ROC-AUC Score
