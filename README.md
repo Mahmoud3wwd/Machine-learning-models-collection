@@ -33,7 +33,7 @@ This repository contains implementations of various machine learning models. Eac
 
 3. **Hierarchical Clustering**
    
-   ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/ae4a4592-9f36-461e-b1ff-8c82668cc008)
+  ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/ae4a4592-9f36-461e-b1ff-8c82668cc008)
    
 5. **DBSCAN**
    
