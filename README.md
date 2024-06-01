@@ -10,10 +10,6 @@ This repository contains implementations of various machine learning models. Eac
 4. [Deep Learning](#deep-learning)
 5. [Natural Language Processing](#natural-language-processing)
 6. [Reinforcement Learning](#reinforcement-learning)
-7. [Installation](#installation)
-8. [Usage](#usage)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ## Supervised Learning
 
@@ -64,10 +60,3 @@ This repository contains implementations of various machine learning models. Eac
 2. **Deep Q-Learning (DQN)**
 3. **Policy Gradient Methods**
 
-## Installation
-
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/ml-models-collection.git
-cd ml-models-collection
