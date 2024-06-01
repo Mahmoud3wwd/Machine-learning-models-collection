@@ -28,18 +28,23 @@ This repository contains implementations of various machine learning models. Eac
 ## Unsupervised Learning
 
 1. **K-Means Clustering**
+   
   ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/02e52aea-6ae9-4656-848d-c076cdf6eea7)
 
 3. **Hierarchical Clustering**
+   
    ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/ae4a4592-9f36-461e-b1ff-8c82668cc008)
    
 5. **DBSCAN**
+   
   ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/24b81e9c-9462-4657-b18f-fa3f3ee2ce38)
 
-6. **Principal Component Analysis (PCA)**
+7. **Principal Component Analysis (PCA)**
+   
   ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/9da92ad6-1e89-4dde-abf1-c7b8e6513058)
 
-7. **t-Distributed Stochastic Neighbor Embedding (t-SNE)**
+9. **t-Distributed Stochastic Neighbor Embedding (t-SNE)**
+    
 ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/caa7bb74-8713-42c7-aef6-58b825d407c0)
 
 ## Ensemble Learning
