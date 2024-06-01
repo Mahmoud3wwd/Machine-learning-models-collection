@@ -30,8 +30,10 @@ This repository contains implementations of various machine learning models. Eac
 1. **K-Means Clustering**
 2. **Hierarchical Clustering**
 3. **DBSCAN**
-4. **Principal Component Analysis (PCA)**
-5. **t-Distributed Stochastic Neighbor Embedding (t-SNE)**
+  ![image](https://github.com/Mahmoud3wwd/Machine-learning-models-collection/assets/150680874/24b81e9c-9462-4657-b18f-fa3f3ee2ce38)
+
+5. **Principal Component Analysis (PCA)**
+6. **t-Distributed Stochastic Neighbor Embedding (t-SNE)**
 
 ## Ensemble Learning
 
